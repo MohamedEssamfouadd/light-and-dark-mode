@@ -8,7 +8,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .theme--mode {
-  background: url("./utils/images/light-bg.jpg");
+  background: url("./public/image/light-bg.jpg");
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -57,14 +57,14 @@ body {
       width: 2rem;
       height: 2rem;
       border-radius: 50%;
-      background: url("./utils/images/sun.png");
+      background: url("./public/image/sun.png");
       background-size: cover;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       transition: 0.4s ease-in-out;
       &.dark {
-        background: url("./utils/images/moon.png");
+        background: url("./public/image/moon.png");
         background-size: cover;
         background-repeat: no-repeat;
         right: 1rem;
@@ -72,6 +72,6 @@ body {
     }
   }
   &.dark {
-    background: url("./utils/images/dark-bg.jpg");
+    background: url("./public/image/dark-bg.jpg");
   }
 }
