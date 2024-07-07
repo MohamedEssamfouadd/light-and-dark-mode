@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className="card">
       <div className="card--image">
-        <img src=".\src\utils\images\logo.png" alt="" />
+        <img src=".\src\utils\images\logo.jpg" alt="" />
       </div>
       <div className="card--description">
         <h2>Light And Dark Mode</h2>
