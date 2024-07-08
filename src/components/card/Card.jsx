@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import img from "../card/img/لاو.jpg"
+
 
 const Card = () => {
   return (
     <div className="card">
       <div className="card--image">
-        <img src=".\public\image\logo.jpg" alt="" />
+        <img src={img} alt="" />
       </div>
       <div className="card--description">
         <h2>Light And Dark Mode</h2>
